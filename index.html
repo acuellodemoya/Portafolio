@@ -1,50 +1,114 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>Nombre de la pagina</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/estilo.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-</head>
-<body>
-	<!-- Nav -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<a class="navbar-brand" href="#">Alejandro Cuello De Moya</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		  <div class="navbar-nav">
-			<a class="nav-link active" href="#"> Inicio</span></a>
-			<a class="nav-link" href="sobre_mi.html">Sobre mi</a>
-			<a class="nav-link" href="conocimientos.html">Conocimientos</a>
-			<a class="nav-link" href="proyectos.html">Proyectos</a>
-		  </div>
-		</div>
-	</nav>
-	<br><br><br>
-	<div class="container">
-		<div class="row">
-			<div class="col align-self-center">
-				<h1>Desarrollo web Backend</h1>
-				<p>
-					Desarrollo web Backend a la medida <br>
-					Creación de paginas web con Wordpress <br>
-					Desarrollo de Apps web con Python y PHP <br>
-				</p>
+	<head>
+		<meta charset="utf-8">
+			<title>Acuellodemoya</title>
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" >
+			<link rel="stylesheet" href="css/estilo.css">
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	</head>
+	<body>			
+		<header class="header" id="inicio">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<a class="navbar-brand" href="#">Alejandro Cuello De Moya</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-link active" href="#"> Inicio</span></a>
+						<a class="nav-link" href="#sobre_mi">Sobre mi</a>
+						<a class="nav-link" href="#estudios">Estudios</a>
+						<a class="nav-link" href="#">Proyectos</a>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<div id="index" class="bg-image" style="background-image: url('https://images.unsplash.com/photo-1600577688596-b7d39d656b91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80');">
+			<div class="container" id="container_intro">
+				<div class="row">
+					<div class="col align-self-center">
+						<h1>Desarrollador Web</h1>
+						<p>
+							Desarrollador web Junior backend con conocimientos en PHP y Python, uso de patrones
+							de diseño tales como MVC y MTV, manejo de frameworks tales como Django y Laravel.
+						</p>	
+					</div>
+				</div>
 			</div>
-			
-		 </div>
-  	</div>
+		</div>
 
 	
-	<!-- Footer -->
-	<footer class="page-footer font-small blue">
-		<div class="footer-copyright text-center py-3">© 2020 Copyright:
-    		Alejandro Cuello De Moya
-  		</div>
-	</footer>
+		<div id="sobre_mi" class="section md-padding">
+			<div class="container text-center">
+				<h2>Sobre mi</h2>
+				<hr><br><br><br>
+				<div class="row">
+					<div class="col-md-6">
+						<h3>Perfil</h3>
+						<hr><br><br>
+						<p>Estudiante de ingenieria de sistemas | Programador web backend | 
+							Programador en Python | Programador en PHP | Estudiante de Machine
+							Learning e inteligencia artificial
+						</p>
+					</div>
+					<div class="col-md-6">
+						<h3>Algunos conocimientos</h3>
+						<hr><br><br>
+						<p>
+							Con habilidades para la programación y el desarrollo web del lado del
+							servidor con lenguajes como PHP y Python, manejo de frameworks como Laravel o Django
+							con conocimientos en HTML y CSS, conocimientos en bases de datos relacionales tales 
+							como MySQL, manejo de patrones de diseño como MVS y MTV, aparte del uso de sistemas de 
+							control de versiones como github.
+							<br>
+							Con conocimentos basicos en Machine Learning y deep learning con Python.
+							 
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br><br><br>
+		<div id="estudios" class="section md-padding">
+			<div class="container text-center">
+				<h2>Estudios</h2>
+				<hr><br><br><br>
+				<div class="row">
+					<div class="col align-self-center">
+						
+					</div>
+				</div>
+			</div>
+		</div>
 
-</body>
+
+
+		<footer class="page-footer font-small cyan darken-3">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 py-5">
+						<div class="mb-5 flex-center">
+							<a href="#">
+								<i class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+							</a>
+							<a href="#">
+								<i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+							</a>
+							<a href="#">
+								<i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright text-center py-3">© 2020 Copyright:
+				Alejandro Cuello De Moya
+			</div>
+		</footer>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+	</body>
 </html>
