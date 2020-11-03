@@ -16,6 +16,12 @@ footer{
 	color: white;
 }
 
+p{
+	color: white;
+	padding: 6em;
+	text-align: center;
+}
+
 .navbar-nav { 
 	margin-left: auto; 
 } 
