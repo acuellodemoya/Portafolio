@@ -14,7 +14,6 @@ h2{
 }
 footer{
 	background-color: #343A40;
-
 	bottom: 0;
 	color: white;
 	width: 100%;
@@ -40,7 +39,7 @@ header{
 	background-color: #343A40;
 }
 header a{
-	font-weight: 600;
+	font-weight: 1000;
 }
 
 .navbar-nav { 
