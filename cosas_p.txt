@@ -1,0 +1,47 @@
+Estudiante de ingeniería de sistemas 
+| Programador web backend | 
+Programador en Python | 
+Programador en PHP | 
+Estudiante de Machine Learning e
+ inteligencia artificial
+
+Con habilidades para la programación y el desarrollo web del lado del
+servidor con lenguajes como PHP y Python, manejo de frameworks como Laravel o Django
+con conocimientos en HTML y CSS, conocimientos en bases de datos relacionales tales 
+como MySQL, manejo de patrones de diseño como MVC y MTV, aparte del uso de sistemas de 
+control de versiones como Github
+Con conocimentos básicos en Machine Learning y deep learning con Python.
+
+							<ul>
+								<li>Estudiante de ingeniería de sistemas | Universidad de la Costa - CUC</li>
+								<li>Construcción de sitios web con Wordpress | Udemy </li>
+								<li>Curso de HTML5 y CSS3 | Udemy</li>
+								<li>Machine Learning Course | Sololearn</li>
+								<li>JavaScript Tutorial Course | Sololearn</li>
+								<li>POO y algoritmos con Python | Platzi</li>
+								<li>Introduccion al Machine Learning | Platzi</li>
+								<li>Curso de Python | Platzi</li>
+								<li>Git y Github | Platzi</li>
+								<li>Introducción a terminal y línea de comandos | Platzi</li>
+								<li>Fundamentos de bases de datos | Platzi</li>
+								<li>PHP con Laravel | Platzi</li>
+								<li>Programación orientada a objetos | Platzi</li>
+							</ul>
+
+<img src="https://images.unsplash.com/photo-1519419166318-4f5c601b8e6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80" alt="Study">
+
+url('https://images.unsplash.com/photo-1600577688596-b7d39d656b91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80');
+
+								A continuación encontramos un sistema de control de gastos realizado con 
+								Laravel en el curso de PHP con Laravel de Platzi utilizando como base de datos
+								 MySQL.
+
+								El proyecto es un sistema basico de gestion odontologica,
+								 realizado como practica para la conexión de una base de datos 
+								 y el patron MVC sin ningun framework está realizado en PHP con
+								  una base de datos MySQL
+
+							<h3>Graficador de Grafos</h3>
+							<p>
+								El proyecto es un graficador sencillo de grafos realizado con PHP y
+								la libreria VisJs
