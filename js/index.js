@@ -1,17 +1,30 @@
+var slideIndex = 1;
+showSlides(slideIndex);
 
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-var args = {"width":300,"Height":300,"duration":5000,"transition":2000,"effect":"fade","id":"divGallery",
-            "images":[["img/c1.jpg","Construccion de sitios web con Wordpress"],
-                        ["img/c2.jpg","HTML y CSS3"],
-                        ["img/c3.jpg", "Machine learning course"],
-                        ["img/c4.jpg","JavaScript Tutorial"],
-                        ["img/c5.JPG","POO y algoritmos con Python"],
-                        ["img/c6.JPG", "Introduccion al machine learning"],
-                        ["img/c7.JPG", "Curso de Python"],
-                        ["img/c8.JPG", "Git y Github"],
-                        ["img/c9.JPG", "Introduccion a la Terminal y linea de Comandos"],
-                        ["img/c10.JPG", "Fundamentos de Bases de Datos"],
-                        ["img/c11.JPG", "PHP con laravel"],
-                        ["img/c12.JPG", "Programacion orientada aobjetos"],
-            ]}
-slideGallery.gallery(args);
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
