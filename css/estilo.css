@@ -1,28 +1,48 @@
-/*body{
-	background: url("https://images.unsplash.com/photo-1600577688596-b7d39d656b91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80");
-}*/
-
-.home{
-	display: flex;
-	flex-wrap: wrap;
+.header{
+	color: beige;
 }
 
-.in-flex{
-	flex: 1;
+#index{
+	background-image: url('https://images.unsplash.com/photo-1600577688596-b7d39d656b91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80');
+}
+
+#container-intro{
+	padding: 5em;
 }
 
 
 
-h1{
+#index{
 	color: white;
-	text-align: center;
-	font-weight: 1000;
 }
 
-h2{
-	text-align: center;
-	font-weight: 1000;
+.navbar-nav { 
+	margin-left: auto; 
+
+} 
+
+#foto_estudios{
+	height: 400px;
+	width: 600px;
 }
+
+#css-foto{
+	height: 400px;
+	width: 400px;
+}
+
+#js-foto{
+	height: 400px;
+	width: 400px;
+}
+
+
+
+#django-foto{
+	height: 300px;
+	width: 700px;
+}
+
 footer{
 	background-color: #343A40;
 	bottom: 0;
@@ -33,128 +53,3 @@ footer{
 	
 
 }
-/*
-.redes{
-	text-indent: 100px;
-}
-*/
-
-#index p{
-	color: white;
-	padding: 6em;
-	text-align: center;
-	font-weight: 800;
-}
-
-header{
-	background-color: #343A40;
-}
-header a{
-	font-weight: 1000;
-}
-
-.navbar-nav { 
-	margin-left: auto; 
-
-} 
-
-/*
-.container{
-	background-color: rgba(255, 255, 255, 0.5);
-	height: 100%;
-}
-*/
-.header .navbar {
-	background-color: transparent !important;
-  }
-
-#container_intro{
-	padding: 5em;
-}
-
-* {
-	box-sizing: border-box;
-  }
-  
-  /* Position the image container (needed to position the left and right arrows) */
-  .contenedor {
-	position: relative;
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
-	display: none;
-  }
-  
-  /* Add a pointer when hovering over the thumbnail images */
-  .cursor {
-	cursor: pointer;
-  }
-  
-  /* Next & previous buttons */
-  .prev,
-  .next {
-	cursor: pointer;
-	position: absolute;
-	top: 40%;
-	width: auto;
-	padding: 16px;
-	margin-top: -50px;
-	color: white;
-	font-weight: bold;
-	font-size: 20px;
-	border-radius: 0 3px 3px 0;
-	user-select: none;
-	-webkit-user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-	right: 0;
-	border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover,
-  .next:hover {
-	background-color: rgba(0, 0, 0, 0.8);
-  }
-  
-  /* Number text (1/3 etc) */
-  .numbertext {
-	color: #f2f2f2;
-	font-size: 12px;
-	padding: 8px 12px;
-	position: absolute;
-	top: 0;
-  }
-  
-  /* Container for image text */
-  .caption-container {
-	text-align: center;
-	background-color: #222;
-	padding: 2px 16px;
-	color: white;
-  }
-  
-  .row:after {
-	content: "";
-	display: table;
-	clear: both;
-  }
-  
-  /* Six columns side by side */
-  .column {
-	float: left;
-	width: 16.66%;
-  }
-  
-  /* Add a transparency effect for thumnbail images */
-  .demo {
-	opacity: 0.6;
-  }
-  
-  .active,
-  .demo:hover {
-	opacity: 1;
-  }
